@@ -87,6 +87,7 @@ Add rating predictions
 Expand to TV show recommendations
 
 # Contact 📧
-Rahul Rai - GitHub Profile
-Project Link: https://github.com/rahul2022B0131055/movie-recommender-system
+-rahul2022B0131055 - GitHub Profile
+-Email - rahulrai93107@gmail.com
+-Project Link: https://github.com/rahul2022B0131055/movie-recommender-system
 
