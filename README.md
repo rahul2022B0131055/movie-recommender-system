@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f54da563-d78c-4e4d-8324-aee4a3c32eb7)# Movie Recommender System 🎥
+# Movie Recommender System 🎥
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://movie-recommender-system-rrut.streamlit.app/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/rahul2022B0131055/movie-recommender-system)
