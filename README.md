@@ -46,7 +46,7 @@ A content-based movie recommendation system that suggests films similar to a use
     ```bash
     streamlit run app.py
 
-1.Select a movie from the dropdown
+1.Select a movie from the dropdown  
 2.Click "Recommend" to get similar movies
 
 ## Tech Stack 🛠️  
