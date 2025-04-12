@@ -27,20 +27,24 @@ A content-based movie recommendation system that suggests films similar to a use
    cd movie-recommender-system
 
 2. Install Git LFS (for large file support):
-git lfs install
-git lfs pull
+   ```bash
+   git lfs install
+   git lfs pull
 
 3. Create virtual environment:
-python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-.\.venv\Scripts\activate  # Windows
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate  # Linux/Mac
+   .\.venv\Scripts\activate  # Windows
 
 4. Install dependencies:
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 Usage 🚀
-Start the Streamlit app:
-streamlit run app.py
+# Start the Streamlit app:
+    ```bash
+    streamlit run app.py
 
 1.Select a movie from the dropdown
 2.Click "Recommend" to get similar movies
