@@ -26,16 +26,16 @@ A content-based movie recommendation system that suggests films similar to a use
    git clone https://github.com/rahul2022B0131055/movie-recommender-system.git
    cd movie-recommender-system
 
-# Install Git LFS (for large file support):
+2. Install Git LFS (for large file support):
 git lfs install
 git lfs pull
 
-# Create virtual environment:
+3. Create virtual environment:
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 .\.venv\Scripts\activate  # Windows
 
-# Install dependencies:
+4. Install dependencies:
 pip install -r requirements.txt
 
 Usage 🚀
