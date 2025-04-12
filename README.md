@@ -79,15 +79,15 @@ movie-recommender-system/
 ├── requirements.txt      # Dependency list
 └── README.md             # Project documentation
 
-# Future Improvements 🔮
-Add user authentication\
-Implement collaborative filtering\
-Include movie trailers\
-Add rating predictions\
-Expand to TV show recommendations\
+# Future Improvements 🔮  
+- Add user authentication  
+- Implement collaborative filtering  
+- Include movie trailers  
+- Add rating predictions  
+- Expand to TV show recommendations  
 
-# Contact 📧
-- rahul2022B0131055 - GitHub Profile
-- Email - rahulrai93107@gmail.com
-- Project Link: https://github.com/rahul2022B0131055/movie-recommender-system
+# Contact 📧  
+- **rahul2022B0131055** - [GitHub Profile](https://github.com/rahul2022B0131055)  
+- **Email** - rahulrai93107@gmail.com  
+- **Project Link**: [Movie Recommender System](https://github.com/rahul2022B0131055/movie-recommender-system)  
 
