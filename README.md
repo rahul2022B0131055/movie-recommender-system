@@ -41,7 +41,7 @@ A content-based movie recommendation system that suggests films similar to a use
    ```bash
    pip install -r requirements.txt
 
-Usage 🚀
+## Usage 🚀
 # Start the Streamlit app:
     ```bash
     streamlit run app.py
