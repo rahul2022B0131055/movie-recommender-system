@@ -73,12 +73,14 @@ Contains:
 
 
 ## Project Structure 📂  
+```
 movie-recommender-system/
-├── app.py # Streamlit application
-├── movies.pkl # Processed movie data
-├── similarity.pkl # Precomputed similarity matrix
-├── requirements.txt # Dependency list
-└── README.md # Project documentation
+├── app.py                # Streamlit application
+├── movies.pkl            # Processed movie data
+├── similarity.pkl        # Precomputed similarity matrix
+├── requirements.txt      # Dependency list
+└── README.md             # Project documentation
+```
 
 # Future Improvements 🔮  
 - Add user authentication  
