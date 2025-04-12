@@ -64,20 +64,21 @@ Contains:
 - Movie ratings and popularity metrics  
 
 ## API Reference 🔌  
-def fetch_poster(movie_id):
+    ```
+    def fetch_poster(movie_id):
     """Fetches movie poster URL from TMDB API"""
     response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=YOUR_API_KEY')
     data = response.json()
     return f"https://image.tmdb.org/t/p/w500{data['poster_path']}"
 
 
-Project Structure 📂
+## Project Structure 📂  
 movie-recommender-system/
-├── app.py                # Streamlit application
-├── movies.pkl            # Processed movie data
-├── similarity.pkl        # Precomputed similarity matrix
-├── requirements.txt      # Dependency list
-└── README.md             # Project documentation
+├── app.py # Streamlit application
+├── movies.pkl # Processed movie data
+├── similarity.pkl # Precomputed similarity matrix
+├── requirements.txt # Dependency list
+└── README.md # Project documentation
 
 # Future Improvements 🔮  
 - Add user authentication  
