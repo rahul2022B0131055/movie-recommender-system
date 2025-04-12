@@ -42,33 +42,29 @@ A content-based movie recommendation system that suggests films similar to a use
    pip install -r requirements.txt
 
 ## Usage 🚀
-# Start the Streamlit app:
+- Start the Streamlit app:
     ```bash
     streamlit run app.py
 
 1.Select a movie from the dropdown
 2.Click "Recommend" to get similar movies
 
-Tech Stack 🛠️
-ML/NLP: scikit-learn, nltk, TF-IDF Vectorization
-Backend: Python, Pandas, Pickle
-Frontend: Streamlit
-APIs: TMDB Movie Database
-Deployment: Streamlit Community Cloud
+## Tech Stack 🛠️  
+- **ML/NLP**: scikit-learn, nltk, TF-IDF Vectorization  
+- **Backend**: Python, Pandas, Pickle  
+- **Frontend**: Streamlit  
+- **APIs**: TMDB Movie Database  
+- **Deployment**: Streamlit Community Cloud  
 
-Dataset 📊
-TMDB 5000 Movie Dataset
-Contains:
-   -5000 movies metadata
-   -Genre, keywords, cast, crew information
-   -Movie ratings and popularity metrics
+## Dataset 📊  
+**TMDB 5000 Movie Dataset**  
+Contains:  
+- 5000 movies metadata  
+- Genre, keywords, cast, crew information  
+- Movie ratings and popularity metrics  
 
-API Reference 🔌
+## API Reference 🔌  
 def fetch_poster(movie_id):
-    """Fetches movie poster URL from TMDB API"""
-    response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=YOUR_API_KEY')
-    data = response.json()
-    return f"https://image.tmdb.org/t/p/w500{data['poster_path']}"def fetch_poster(movie_id):
     """Fetches movie poster URL from TMDB API"""
     response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=YOUR_API_KEY')
     data = response.json()
