@@ -36,7 +36,7 @@ def recommend(movie):
 
 
 # Streamlit UI
-st.title('Movie Recommender System')
+st.title('Flicksy')
 
 selected_movie = st.selectbox(
     'Select a movie to get recommendations:',
